@@ -39,6 +39,7 @@ class Calculator:
         """ divide a number and get result"""
         if self == 0:
             print("The denominator can not be a zero.")
-            return self
+            self.result = 0
+            return self.result
         self.result = self.result / value_a
         return self.result
