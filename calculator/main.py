@@ -26,9 +26,8 @@ class Calculator:
         return self.result
     def divide_number(self, value_a, value_b):
         """ divide a number and get result"""
+        self.result = value_a / value_b
         if value_a == 0:
             print("The denominator can not be a zero.")
             self.result = 0
-        else:
-            self.result = value_a / value_b
         return self.result
