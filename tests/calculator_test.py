@@ -35,5 +35,5 @@ def test_calculator_divide():
     calc = Calculator()
     result = calc.divide_number(1,2)
     assert result == 0.5
-    result = calc.divide_number(0, 2)
+    result = calc.divide_number(0,2)
     assert result == 0
