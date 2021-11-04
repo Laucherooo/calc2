@@ -28,7 +28,7 @@ class Calculator:
         """ divide a number and get result"""
         if value_a == 0:
             print("The denominator can not be a zero.")
-            return value_a
+            self.result = 0
         else:
             self.result = value_a / value_b
         return self.result
