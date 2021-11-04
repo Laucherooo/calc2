@@ -36,4 +36,4 @@ def test_calculator_divide():
     result = calc.divide_number(1,2)
     assert result == 0.5
     result = calc.divide_number(0, 2)
-    assert result == "Can not divide a zero"
+    assert result == 0
