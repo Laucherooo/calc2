@@ -28,18 +28,7 @@ class Calculator:
         """ divide a number and get result"""
         if value_a == 0:
             print("The denominator can not be a zero.")
-            return self
-        self.result = value_a / value_b
-        return self.result
-    def multiply_numbers_self(self, value_a):
-        """ multiply two numbers and get result"""
-        self.result = self.result * value_a
-        return self.result
-    def divide_number_self(self, value_a):
-        """ divide a number and get result"""
-        if self == 0:
-            print("The denominator can not be a zero.")
-            self.result = 0
+            return value_a
+        else:
+            self.result = value_a / value_b
             return self.result
-        self.result = self.result / value_a
-        return self.result
