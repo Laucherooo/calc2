@@ -31,4 +31,4 @@ class Calculator:
             return value_a
         else:
             self.result = value_a / value_b
-            return self.result
+        return self.result
