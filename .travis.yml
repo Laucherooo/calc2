@@ -9,5 +9,6 @@ script:
 
 branches:
   only:
-    - gh-pages
-    - /.*/
+    - main
+    - development
+    - calc_part2
