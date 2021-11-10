@@ -1,5 +1,5 @@
 # Calculator Project Setup
-[![Build Status](https://app.travis-ci.com/Laucherooo/calc2.svg?branch=main)](https://app.travis-ci.com/Laucherooo/calc2)
+[![Build Status](https://app.travis-ci.com/Laucherooo/calc2.svg?branch=part4)](https://app.travis-ci.com/Laucherooo/calc2)
 
 Run pip install
 pip install -r requirements.txt
