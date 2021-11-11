@@ -24,4 +24,9 @@ class Calculator:
         calculation = Multiplication(args)
         Calculations.add_calculation(calculation)
         return calculation.get_result()
-    
+    @staticmethod
+    def divide_numbers(*args):
+        """ multiplication number from result"""
+        calculation = Multiplication(args)
+        Calculations.add_calculation(calculation)
+        return calculation.get_result()
