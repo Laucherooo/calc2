@@ -4,8 +4,11 @@ from calc.calculations.calculation import Calculation
 class Division(Calculation):
     """ calculation addition class"""
     def get_result(self):
-        """get the addition results"""
-        sum_of_values = 0.0
+        """get the division results"""
+        D_values = 0.0
         for value in self.values:
-            sum_of_values = value / sum_of_values
-        return sum_of_values
+            if(D_values == 0.0):
+                D_values = value
+                continue
+            D_values = D_values / value
+        return D_values
