@@ -85,12 +85,12 @@ disable=raw-checker-failed,
         suppressed-message,
         useless-suppression,
         deprecated-pragma,
-        use-symbolic-message-instead,
-        C0116, # missing-function-docstring
-        C0115, # missing-class-docstring
-        R0903, # too-few-public-methods
-        W0613, #unused argument
-        W0621 #redefined-outer-name
+        use-symbolic-message-instead
+        #C0116, # missing-function-docstring
+        #C0115, # missing-class-docstring
+        #R0903, # too-few-public-methods
+        #W0613, #unused argument
+        #W0621 #redefined-outer-name
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
