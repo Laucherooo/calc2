@@ -1,7 +1,7 @@
 # Calculator Project Setup
 [![Build Status](https://app.travis-ci.com/Laucherooo/calc2.svg?branch=calc_part2)](https://app.travis-ci.com/Laucherooo/calc2)
 
-![image](![](https://github.com/Laucherooo/calc2/blob/beautiful_table/app/beautiful-table.png))
+![Table image](beautiful-table.png))
 
 
 
