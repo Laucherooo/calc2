@@ -4,6 +4,7 @@
 ![image](![](https://github.com/Laucherooo/calc2/blob/beautiful_table/app/beautiful-table.png))
 
 
+
 Run pip install
 pip install -r requirements.txt
 
